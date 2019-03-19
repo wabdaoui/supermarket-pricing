@@ -1,4 +1,4 @@
-package com.supermarket.services;
+package com.supermarket.services.store;
 
 import java.util.Map;
 import java.util.Optional;
