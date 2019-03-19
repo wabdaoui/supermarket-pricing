@@ -9,6 +9,7 @@ import com.supermarket.domain.Price;
 import com.supermarket.domain.Product;
 import com.supermarket.exceptions.ProductNotExistException;
 import com.supermarket.services.pricing.Pricing;
+import com.supermarket.services.store.ProductStore;
 
 /**
  * This is an implementation of {@link com.supermarket.services.Basket.class}

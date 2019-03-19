@@ -20,7 +20,7 @@ import static org.junit.Assert.*;
 
 import java.math.BigDecimal;
 
-public class BasketTests {
+public class BasketPricingTests {
 
     private static final ProductStore store = ProductStoreImpl.getInstance();
 
