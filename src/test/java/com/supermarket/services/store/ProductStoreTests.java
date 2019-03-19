@@ -1,4 +1,4 @@
-package com.supermarket.services;
+package com.supermarket.services.store;
 
 import com.supermarket.services.ProductStore;
 import com.supermarket.services.ProductStoreImpl;
