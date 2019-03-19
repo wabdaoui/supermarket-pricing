@@ -29,4 +29,14 @@ public class ProductStoreImpl implements ProductStore {
     private ProductStoreImpl() {
         this.products = new ConcurrentHashMap<Long, Product>();
     }
+
+	@Override
+    public Optional<Product> get(Long t) {
+        return Optional.ofNullable(products.get(t));
+    }
+	
+	@Override
+    public void add(Product product) {
+        if (null != product) products.put(product.getId(), product);
+    }
 }
