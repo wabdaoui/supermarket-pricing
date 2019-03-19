@@ -1,7 +1,7 @@
 package com.supermarket.services.store;
 
-import com.supermarket.services.ProductStore;
-import com.supermarket.services.ProductStoreImpl;
+import com.supermarket.services.store.ProductStore;
+import com.supermarket.services.store.ProductStoreImpl;
 import com.supermarket.services.pricing.SinglePricing;
 import com.supermarket.domain.Price;
 import com.supermarket.domain.Product;
